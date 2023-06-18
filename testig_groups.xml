@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM  "http://testng.org/testng-1.0.dtd">
+<suite name="Annotation">
+    <test name="Run group Annotations">
+        <groups>
+            <run>
+
+                <include name="smoke"/>
+
+            </run>
+        </groups>
+        <classes>
+            <class name="DemoTestNG.ConfigurationAnnotation_datetimepickers">
+
+            </class>
+
+
+            <class name="DemoTestNG.ConfigurationAnnotation_2_listBox"></class>
+        </classes>
+    </test>
+</suite>
